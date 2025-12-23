@@ -1734,6 +1734,14 @@ textarea.form-input {
     .section-title {
         font-size: 1.8rem;
     }
+     .about-stats {
+       display: flex;
+       gap: 10px;
+       margin-left: -20px;
+    }
+     .about-image img {
+     margin-left: -14px;
+    }
     
     .container,
     .container-fluid {
@@ -1745,3 +1753,4 @@ textarea.form-input {
         font-size: 0.9rem;
     }
 }
+
