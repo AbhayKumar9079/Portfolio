@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Image/png" href="images/icon.png">
+    <title>Lens & Light Photography | Premium Photography Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&family=Urbanist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="lens-loader"></div>
+            <p class="loader-text">Lens & Light</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">◉</span>
+                <span class="logo-text">Lens & Light</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="dropdown">
+                    <a href="#pages" class="nav-link dropdown-toggle">Pages</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#team-details">Team Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('images/bg-1.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('images/bg-3.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('images/bg-4.jpg')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Capturing Life's</span>
+                    <span class="title-line">Most Precious</span>
+                    <span class="title-line gold-text">Moments</span>
+                </h1>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Book a Session</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll to Explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Specialties</span>
+                <h2 class="section-title">Featured Categories</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card" data-category="wedding">
+                    <div class="category-image">
+                        <img src="images/wedding-photo.jpg" alt="Wedding Photography">
+                        <div class="category-overlay">
+                            <div class="category-content">
+                                <h3>Wedding Photography</h3>
+                                <p>Timeless moments of love</p>
+                                <span class="view-more">View Gallery →</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="category-card" data-category="events">
+                    <div class="category-image">
+                        <img src="images/event-photo.jpg" alt="Event Photography">
+                        <div class="category-overlay">
+                            <div class="category-content">
+                                <h3>Event Photography</h3>
+                                <p>Memorable celebrations</p>
+                                <span class="view-more">View Gallery →</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card" data-category="festival">
+                    <div class="category-image">
+                        <img src="images/festival-photo.jpg" alt="Festival Photography">
+                        <div class="category-overlay">
+                            <div class="category-content">
+                                <h3>Festival Photography</h3>
+                                <p>Cultural celebrations</p>
+                                <span class="view-more">View Gallery →</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- About Section -->
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="about-content">
+            
+            <!-- Left: Image -->
+            <div class="about-image">
+                <img src="images/professional-photographer.jpg" alt="Professional Photographer">
+            </div>
+
+            <!-- Right: Text -->
+            <div class="about-text">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">The Art of Visual Storytelling</h2>
+                <p class="about-description">
+                    With over a decade of experience capturing life's most extraordinary moments, I've dedicated my career to the art of visual storytelling.
+                </p>
+                <p class="about-description">
+                    My approach combines technical excellence with artistic vision, ensuring every photograph tells a compelling story.
+                </p>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15</span>
+                        <span class="stat-label">Awards</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction</span>
+                    </div>
+                </div>
+
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">What We Offer</span>
+                <h2 class="section-title">Premium Services</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Comprehensive photography solutions tailored to your unique needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 21a9 9 0 100-18 9 9 0 000 18z"/>
+                            <path d="M12 7v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Wedding Photography</h3>
+                    <p class="service-description">
+                        Complete wedding day coverage from preparation to reception. We capture every precious moment of your special day with artistry and attention to detail.
+                    </p>
+                    <ul class="service-features">
+                        <li>Full day coverage</li>
+                        <li>Engagement sessions</li>
+                        <li>Premium albums</li>
+                        <li>Online gallery</li>
+                    </ul>
+                </div>
+          
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M7 7h.01M7 12h.01M7 17h.01M12 7h5M12 12h5M12 17h5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Event Photography</h3>
+                    <p class="service-description">
+                        Professional coverage for corporate events, parties, and celebrations. We document the atmosphere, interactions, and memorable moments.
+                    </p>
+                    <ul class="service-features">
+                        <li>Corporate events</li>
+                        <li>Private parties</li>
+                        <li>Brand activations</li>
+                        <li>Quick turnaround</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Festival Shoots</h3>
+                    <p class="service-description">
+                        Vibrant documentation of cultural festivals, concerts, and public celebrations. We capture the energy, colors, and spirit of the event.
+                    </p>
+                    <ul class="service-features">
+                        <li>Cultural festivals</li>
+                        <li>Music concerts</li>
+                        <li>Public events</li>
+                        <li>Documentary style</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container-fluid">
+            <div class="section-header centered">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Portfolio Gallery</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Explore our collection of captivating moments</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="festival">Festival</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image">
+                        <img src="images/wedding-1.jpg" alt="Wedding Ceremony">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Sacred Vows</h3>
+                                <p>Wedding Ceremony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="portfolio-item" data-category="festival">
+                    <div class="portfolio-image">
+                        <img src="images/festival-1.jpg" alt="Cultural Festival">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Cultural Heritage</h3>
+                                <p>Festival Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image">
+                        <img src="images/wedding-2.jpg" alt="Wedding Couple">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Forever Together</h3>
+                                <p>Wedding Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="portfolio-item" data-category="events">
+                    <div class="portfolio-image">
+                        <img src="images/events-1.jpg" alt="Event Party">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Celebration Night</h3>
+                                <p>Event Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="festival">
+                    <div class="portfolio-image">
+                        <img src="images/festival-2.jpg" alt="Music Festival">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Live Performance</h3>
+                                <p>Concert Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image">
+                        <img src="images/wedding-3.jpg" alt="Bride Portrait">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Bridal Elegance</h3>
+                                <p>Wedding Portrait</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+
+                 <div class="portfolio-item" data-category="events">
+                    <div class="portfolio-image">
+                        <img src="images/events-2.jpg" alt="Corporate Event">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Business Summit</h3>
+                                <p>Corporate Event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="festival">
+                    <div class="portfolio-image">
+                        <img src="images/festival-3.jpg" alt="Dance Performance">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Traditional Dance</h3>
+                                <p>Cultural Event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="events">
+                    <div class="portfolio-image">
+                        <img src="images/events-3.jpg" alt="Corporate Event">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Plant Care Training</h3>
+                                <p>Plant Event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">Investment</span>
+                <h2 class="section-title">Photography Packages</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Choose the perfect package for your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="package-name">Basic</h3>
+                        <div class="package-price">
+                            <span class="currency">$</span>
+                            <span class="amount">499</span>
+                        </div>
+                        <p class="package-duration">Half Day Coverage</p>
+                    </div>
+                    <ul class="package-features">
+                        <li>Up to 4 hours coverage</li>
+                        <li>100+ edited photos</li>
+                        <li>Online gallery</li>
+                        <li>Digital download</li>
+                        <li>1 photographer</li>
+                        <li>Basic retouching</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Choose Plan</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge"> Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="package-name">Standard</h3>
+                        <div class="package-price">
+                            <span class="currency">$</span>
+                            <span class="amount">999</span>
+                        </div>
+                        <p class="package-duration">Full Day Coverage</p>
+                    </div>
+                    <ul class="package-features">
+                        <li>Up to 8 hours coverage</li>
+                        <li>300+ edited photos</li>
+                        <li>Premium online gallery</li>
+                        <li>Digital download</li>
+                        <li>2 photographers</li>
+                        <li>Advanced retouching</li>
+                        <li>Highlight video (2-3 min)</li>
+                        <li>Print release</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Choose Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="package-name">Premium</h3>
+                        <div class="package-price">
+                            <span class="currency">$</span>
+                            <span class="amount">1999</span>
+                        </div>
+                        <p class="package-duration">Full Experience</p>
+                    </div>
+                    <ul class="package-features">
+                        <li>Unlimited coverage</li>
+                        <li>500+ edited photos</li>
+                        <li>Luxury online gallery</li>
+                        <li>Digital download</li>
+                        <li>3 photographers</li>
+                        <li>Professional retouching</li>
+                        <li>Cinematic video (5-10 min)</li>
+                        <li>Premium photo album</li>
+                        <li>Engagement session</li>
+                        <li>Print release</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">Our Team</span>
+                <h2 class="section-title">Meet the Professionals</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Talented photographers dedicated to capturing your moments</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/team-img1.jpg" alt="Alex Morgan">
+                        <div class="team-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-icon">in</a>
+                                <a href="#" class="social-icon">ig</a>
+                                <a href="#" class="social-icon">tw</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Alex Morgan</h3>
+                        <p class="team-role">Lead Photographer</p>
+                        <a href="#team-details" class="view-profile">View Profile →</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/team-img2.jpg" alt="Sarah Chen">
+                        <div class="team-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-icon">in</a>
+                                <a href="#" class="social-icon">ig</a>
+                                <a href="#" class="social-icon">tw</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Sarah Chen</h3>
+                        <p class="team-role">Wedding Specialist</p>
+                        <a href="#team-details" class="view-profile">View Profile →</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/team-img3.jpg" alt="Marcus Johnson">
+                        <div class="team-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-icon">in</a>
+                                <a href="#" class="social-icon">ig</a>
+                                <a href="#" class="social-icon">tw</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Marcus Johnson</h3>
+                        <p class="team-role">Sports Photographer</p>
+                        <a href="#team-details" class="view-profile">View Profile →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Details Section -->
+    <section class="team-details-section" id="team-details">
+        <div class="container">
+            <div class="team-details-content">
+                <div class="team-details-image">
+                    <img src="images/team-img1.jpg" alt="Alex Morgan">
+                    <div class="details-frame"></div>
+                </div>
+                <div class="team-details-info">
+                    <span class="section-tag">Team Member</span>
+                    <h2 class="section-title">Alex Morgan</h2>
+                    <p class="member-title">Lead Photographer & Founder</p>
+                    <div class="section-divider"></div>
+                    <p class="member-bio">
+                        With over 12 years of experience in professional photography, Alex has become one of the most sought-after photographers in the industry. Specializing in weddings and lifestyle photography, Alex's work has been featured in numerous publications and has won multiple international awards.
+                    </p>
+                    <p class="member-bio">
+                        Alex's approach to photography is deeply rooted in storytelling and emotional connection. Every shoot is an opportunity to create art that resonates with authenticity and beauty.
+                    </p>
+                    <div class="skills-section">
+                        <h3>Skills & Expertise</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-name">Wedding Photography</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Portrait Photography</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Photo Editing</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 98%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Lighting Design</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="achievements">
+                        <h3>Achievements</h3>
+                        <ul class="achievements-list">
+                            <li>International Photography Award Winner 2023</li>
+                            <li>Featured in Wedding Photography Magazine</li>
+                            <li>Top 10 Wedding Photographers Award</li>
+                            <li>500+ Successful Projects Completed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">Latest News</span>
+                <h2 class="section-title">Photography Journal</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Tips, stories, and behind-the-scenes insights</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-1.jpg" alt="Blog Post">
+                        <div class="blog-category">Wedding Tips</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 20, 2025</span>
+                            <span class="blog-reading-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">10 Tips for Perfect Wedding Day Photography</h3>
+                        <p class="blog-excerpt">
+                            Discover the essential tips every couple should know to ensure their wedding photos are absolutely stunning. From lighting to poses, we cover it all.
+                        </p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-2.jpg" alt="Blog Post">
+                        <div class="blog-category">Event</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 15, 2025</span>
+                            <span class="blog-reading-time">7 min read</span>
+                        </div>
+                        <h3 class="blog-title">Master the Art of Creating Beautiful Events</h3>
+                        <p class="blog-excerpt">
+                           A complete guide to designing smooth, well-coordinated events with the right planning, team management, and execution techniques.
+                        </p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-3.jpg" alt="Blog Post">
+                        <div class="blog-category">Behind the Scenes</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 10, 2025</span>
+                            <span class="blog-reading-time">6 min read</span>
+                        </div>
+                        <h3 class="blog-title">Behind the Lens: Festival Photography</h3>
+                        <p class="blog-excerpt">
+                            A peek into the vibrant world of festival photography, from dealing with challenging lighting to capturing authentic cultural moments.
+                        </p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Create Together</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Ready to capture your special moments? Let's discuss your vision</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>123 Photography Lane<br>Studio City, CA 90210</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>+1 (555) 123-4567<br>Mon-Sat, 9AM-6PM</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>info@lensandlight.com<br>contact@lensandlight.com</p>
+                    </div>
+                    <div class="social-media">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">Facebook</a>
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-input" required>
+                            <option value="">Select Service</option>
+                            <option value="wedding">Wedding Photography</option>
+                            <option value="sports">Sports Coverage</option>
+                            <option value="events">Event Photography</option>
+                            <option value="festival">Festival Shoots</option>
+                            <option value="portrait">Portrait Sessions</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" rows="5" placeholder="Tell us about your project" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">◉</span>
+                        <span class="logo-text">Lens & Light</span>
+                    </div>
+                    <p class="footer-description">
+                        Creating timeless memories through the art of photography. Professional services for all your special moments.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Wedding Photography</a></li>
+                        <li><a href="#services">Sports Coverage</a></li>
+                        <li><a href="#services">Event Photography</a></li>
+                        <li><a href="#services">Festival Shoots</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class="newsletter-text">Subscribe for photography tips and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email">
+                        <button type="submit" class="newsletter-btn">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lens & Light Photography. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
